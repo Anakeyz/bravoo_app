@@ -79,3 +79,4 @@ The APK will be at `build/app/outputs/flutter-apk/app-release.apk`
 - Google/Apple sign-in configured but requires OAuth setup
 - Social sharing uses share_plus package
 - Design matches Figma specs with 3D button effects
+# bravoo_app
