@@ -21,6 +21,10 @@ class AuthRepository {
         password: password,
       );
 
+      if (response.user != null && response.user?.identities?.isEmpty == true) {
+        throw Exception('This email is already registered. Please log in instead.');
+      }
+
       return response;
     } catch (e) {
       rethrow;
